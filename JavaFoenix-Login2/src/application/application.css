@@ -1,0 +1,17 @@
+/* JavaFX CSS - Leave this comment until you have at least create one rule which uses -fx-Property */
+
+.imagen1{
+	-fx-background-image: url('../images/forest-cielo.jpg');
+}
+
+.imagen2{
+	-fx-background-image: url('../images/mountain-lake-snow.jpg');
+}
+
+.imagen3{
+	-fx-background-image: url('../images/mountain-snow.jpg');
+}
+
+.imagen4{
+	-fx-background-image: url('../images/nieve-troncos.jpg');
+}

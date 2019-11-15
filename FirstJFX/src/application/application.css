@@ -1,0 +1,33 @@
+.buttonon{
+	-fx-background-color: #3082E2;
+	-fx-background-radius: 2px;
+	-fx-border-color: #3082E2;
+	-fx-text-fill: white;
+	-fx-border-radius: 2px;
+}
+
+.buttonoff{
+	-fx-background-color: white;
+	-fx-border-color: #3082E2;
+	-fx-text-fill: #3082E2;
+	-fx-border-radius: 2px;	
+}
+
+.mytitle{
+    /*-fx-font-family: "HipsterishFontNormal";*/
+    -fx-font-family: "Shadows Into Light";
+    -fx-font-size: 36.0px;
+    
+}
+
+.mypane{
+	-fx-background-color: linear-gradient(#2A5058, #61a2b1);
+	}
+	
+
+.fondo{
+	-fx-background-image: url("blueforest.jpg");
+	-fx-background-size: 100%;
+	-fx-background-repeat: no-repeat ;
+	
+}

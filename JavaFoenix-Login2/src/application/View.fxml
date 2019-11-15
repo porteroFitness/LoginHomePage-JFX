@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXTextField?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.VBox?>
+
+<AnchorPane prefHeight="478.0" prefWidth="481.0" stylesheets="@application.css" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.Controller">
+   <children>
+      <Pane fx:id="image1" minHeight="100.0" minWidth="100.0" prefHeight="503.0" prefWidth="500.0" styleClass="imagen1" />
+      <Pane fx:id="image2" prefHeight="503.0" prefWidth="500.0" styleClass="imagen2" />
+      <Pane fx:id="image3" prefHeight="503.0" prefWidth="500.0" styleClass="imagen3" />
+      <Pane fx:id="image4" prefHeight="503.0" prefWidth="500.0" styleClass="imagen4" />
+      <VBox alignment="CENTER" layoutX="132.0" layoutY="89.0" prefHeight="297.0" prefWidth="256.0" spacing="40.0" style="-fx-background-color: #2980B9; -fx-background-radius: 25; -fx-border-image-width: 200; -fx-border-color: white; -fx-border-radius: 25;">
+         <children>
+            <JFXTextField id="tfUsername" focusColor="WHITE" labelFloat="true" promptText="Username : " style="-fx-background-radius: 7;" unFocusColor="#1d10a8">
+               <opaqueInsets>
+                  <Insets />
+               </opaqueInsets>
+               <cursor>
+                  <Cursor fx:constant="DEFAULT" />
+               </cursor>
+            </JFXTextField>
+            <JFXTextField id="tfpassword" focusColor="WHITE" labelFloat="true" promptText="Password :" style="-fx-background-radius: 7;" unFocusColor="#1d10a8">
+               <opaqueInsets>
+                  <Insets top="40.0" />
+               </opaqueInsets>
+            </JFXTextField>
+            <HBox alignment="CENTER" prefHeight="55.0" prefWidth="201.0" spacing="30.0">
+               <children>
+                  <Button mnemonicParsing="false" prefHeight="40.0" prefWidth="93.0" style="-fx-background-radius: 10; -fx-background-color: black;" text="SIGN IN">
+                     <HBox.margin>
+                        <Insets />
+                     </HBox.margin>
+                  </Button>
+                  <Button mnemonicParsing="false" prefHeight="40.0" prefWidth="93.0" style="-fx-background-radius: 10; -fx-background-color: blue;" text="EXIT" />
+               </children>
+               <padding>
+                  <Insets top="20.0" />
+               </padding>
+            </HBox>
+         </children>
+         <opaqueInsets>
+            <Insets />
+         </opaqueInsets>
+         <padding>
+            <Insets left="30.0" right="30.0" />
+         </padding>
+      </VBox>
+   </children>
+</AnchorPane>
