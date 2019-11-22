@@ -11,6 +11,7 @@ import javafx.stage.Stage;
 
 public class BlurController {
 	
+	
 	@FXML
     // private ImageView imageView;
 	private Pane pane;
