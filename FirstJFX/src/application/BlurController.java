@@ -10,7 +10,7 @@ import javafx.scene.layout.Pane;
 import javafx.stage.Stage;
 
 public class BlurController {
-	
+
 	
 	@FXML
     // private ImageView imageView;
