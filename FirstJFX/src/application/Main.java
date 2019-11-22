@@ -10,7 +10,7 @@ import javafx.stage.Stage;
 
 /**
  * 
- * @author ernesto
+ * @author Sergy
  * @version 1.0
  * @see BlurController
  *
@@ -19,17 +19,11 @@ public class Main extends Application {
 
 	private AnchorPane mypane;
 	
-	/**
-	 * crea el Stage
-	 */
-	
+	/*crea el Stage*/
     @Override
     public void start(Stage stage) throws IOException {
     
-    	/**
-    	 * carga el controlador y la vista fxml 
-    	 */
-    	
+    	/* carga el controlador y la vista fxml */
     	FXMLLoader loader = new FXMLLoader(
             getClass().getResource(
                 "Forest.fxml"
@@ -38,20 +32,14 @@ public class Main extends Application {
 
         mypane = (AnchorPane) loader.load();
 
-        /**
-         * titula y coloca la escena en el stage
-         */
+        /*titula y coloca la escena en el stage*/
         stage.setTitle("Where's the squirrel?");
         stage.setScene(new Scene(mypane));
         stage.show();
     }
 
 
-    /**
-     * arranca la aplicación
-     * @param args
-     */
-    
+    /*arranca la aplicación*/
     public static void main(String[] args) {
         launch(args);
     }

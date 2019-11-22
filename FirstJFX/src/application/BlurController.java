@@ -1,3 +1,7 @@
+/**
+ * author Sergy
+ */
+
 package application;
 
 import javafx.fxml.FXML;
@@ -11,7 +15,7 @@ import javafx.stage.Stage;
 
 public class BlurController {
 
-	
+	private int contClick = 0;
 	@FXML
     // private ImageView imageView;
 	private Pane pane;
@@ -19,17 +23,33 @@ public class BlurController {
 	
 	// DESHACER DEGRADADO DE IMAGEN
 	@FXML
-    public void setblur() {           
-             pane.setEffect(new GaussianBlur(20));
+    private void setblur() {
+		
+		pane.setEffect(new GaussianBlur(20));
 
     }
 	
 	// DEGRADAR IMAGEN
 	@FXML
-    public void setFocus() {           
+    private void setFocus() {           
              pane.setEffect(new GaussianBlur(0));
 
     }
+	
+	/*@FXML
+    private void setblur() {
+		contClick ++ ;
+		pane.setEffect(new GaussianBlur(contClick));
+
+    }
+	
+	// DEGRADAR IMAGEN
+	@FXML
+    private void setFocus() {  
+		contClick--;
+		pane.setEffect(new GaussianBlur(contClick));
+
+    }*/
 	
 	// PARA CERRAR VENTANA
 	@FXML
